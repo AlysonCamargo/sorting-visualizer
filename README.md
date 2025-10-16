@@ -1,6 +1,6 @@
 # 🎨 Sorting Algorithm Visualizer
 
-![GitHub](https://img.shields.io/github/license/AlysonCamargo/sorting-visualizer)
+
 ![GitHub stars](https://img.shields.io/github/stars/AlysonCamargo/sorting-visualizer)
 ![GitHub forks](https://img.shields.io/github/forks/AlysonCamargo/sorting-visualizer)
 
