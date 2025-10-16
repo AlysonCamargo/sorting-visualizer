@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 Sorting Algorithm Visualizer</h1>
+            <p class="subtitle">Visualize algoritmos de ordenação em tempo real</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="algorithm-select">Algoritmo:</label>
+                <select id="algorithm-select">
+                    <option value="bubble">Bubble Sort</option>
+                    <option value="selection">Selection Sort</option>
+                    <option value="insertion">Insertion Sort</option>
+                    <option value="merge">Merge Sort</option>
+                    <option value="quick">Quick Sort</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="array-size">Tamanho do Array: <span id="size-value">50</span></label>
+                <input type="range" id="array-size" min="10" max="100" value="50">
+            </div>
+
+            <div class="control-group">
+                <label for="speed">Velocidade: <span id="speed-value">50</span>ms</label>
+                <input type="range" id="speed" min="1" max="200" value="50">
+            </div>
+
+            <div class="button-group">
+                <button id="generate-btn" class="btn btn-primary">Gerar Novo Array</button>
+                <button id="sort-btn" class="btn btn-success">Iniciar Ordenação</button>
+                <button id="stop-btn" class="btn btn-danger" disabled>Parar</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-label">Comparações:</span>
+                <span id="comparisons" class="stat-value">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Trocas:</span>
+                <span id="swaps" class="stat-value">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Tempo:</span>
+                <span id="time" class="stat-value">0s</span>
+            </div>
+        </div>
+
+        <div id="array-container"></div>
+
+        <div class="info-panel">
+            <h3>ℹ️ Sobre o Algoritmo Selecionado</h3>
+            <div id="algorithm-info">
+                <p><strong>Complexidade de Tempo:</strong> <span id="time-complexity"></span></p>
+                <p><strong>Complexidade de Espaço:</strong> <span id="space-complexity"></span></p>
+                <p><strong>Descrição:</strong> <span id="description"></span></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Desenvolvido com 💚 | <a href="https://github.com/AlysonCamargo" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
