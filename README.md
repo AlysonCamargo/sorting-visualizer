@@ -1,8 +1,8 @@
 # 🎨 Sorting Algorithm Visualizer
 
-![GitHub](https://img.shields.io/github/license/seu-usuario/sorting-visualizer)
-![GitHub stars](https://img.shields.io/github/stars/seu-usuario/sorting-visualizer)
-![GitHub forks](https://img.shields.io/github/forks/seu-usuario/sorting-visualizer)
+![GitHub](https://img.shields.io/github/license/AlysonCamargo/sorting-visualizer)
+![GitHub stars](https://img.shields.io/github/stars/AlysonCamargo/sorting-visualizer)
+![GitHub forks](https://img.shields.io/github/forks/AlysonCamargo/sorting-visualizer)
 
 Uma aplicação web interativa para visualizar algoritmos de ordenação em tempo real com animações suaves e estatísticas detalhadas.
 
