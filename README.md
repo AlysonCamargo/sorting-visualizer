@@ -63,11 +63,6 @@ O projeto é totalmente responsivo e funciona perfeitamente em:
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-
 ---
 
 ⭐ Se este projeto foi útil para você, considere dar uma estrela!
